@@ -1,0 +1,2 @@
+function foo(a,b){return a+b;}console.log(foo(2,3));//This will output 5
+console.log(foo(2,"3"));//This will output 23. This is because the + operator will perform string concatenation if one of the operands is a string.
